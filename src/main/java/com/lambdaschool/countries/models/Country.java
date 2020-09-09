@@ -14,16 +14,16 @@ public class Country
     private long landmasskm2;
     private int medianage;
 
-    public Country()
-    {
-    }
-
     public Country(String name, long population, long landmasskm2, int medianage)
     {
         this.name = name;
         this.population = population;
         this.landmasskm2 = landmasskm2;
         this.medianage = medianage;
+    }
+
+    public Country()
+    {
     }
 
     public String getName() {
